@@ -35,8 +35,12 @@ int main(int argc, char *argv[]) {
 
 
 	printf("%u(0x%x + %u(0x%x) = %u(0x%x)\n", num1, num1, num2, num2, sum, sum);
-
-
+	
+	
+	char name[] = "김준섭";
+	printf("[bob12]add-nbo[%s]", name);
+	
+	
 	return 0;
 }
 
